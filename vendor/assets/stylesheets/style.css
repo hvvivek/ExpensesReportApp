@@ -1,0 +1,119 @@
+input[type=radio]
+{
+    display: none;
+}
+
+form#new_expense>div>div.col-xs-2
+{
+    padding: 3px;
+    text-align: center;
+}
+
+form#new_expense .number-input-label
+{
+    text-align: right;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 0.5em;
+}
+form#new_expense .field-input,form#new_expense .field-input:hover
+{
+    text-align: left;
+    font-size: 3em;
+    border: none;
+    font-weight: lighter;
+
+}
+
+form#new_expense .field-input:focus
+{
+    outline: none;
+}
+
+form#new_expense .amount-input
+{
+    padding: 0px;
+}
+
+form#new_expense .actions
+{
+    margin-bottom: 0px;
+}
+
+#validForm
+{
+    float: right;
+    height: 3em;
+    width: 3em;
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    font-weight: lighter;
+}
+
+form#new_expense .expense-desc-field,.expense-desc-field:hover,.expense-desc-field:focus,.expense-desc-field:active
+{
+    outline: none;
+    border: none;
+    font-size: 2em;
+    font-weight: lighter;
+    padding-top: 0.5em;
+}
+
+form#new_expense .desc-input
+{
+    margin-bottom: 0px;
+    height: 3em;
+}
+
+.type-input label
+{
+    background-color: #FFF;
+    color: #2370ed;
+    border: 1px solid #2370ed;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.type-input label.active
+{
+    background-color: #2370ed;
+    color: #fff;
+}
+
+div>div.header
+{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+
+.chart-container
+{
+    text-align: center;
+}
+
+#widgets-container
+{
+    padding-top: 2em;
+}
+
+.widget
+{
+    margin-bottom: 1em;
+}
+
+#data-container
+{
+    padding-left: 2em;
+}
+
+#widgets-container
+{
+    position: fixed;
+    right: 0px;
+}
+
